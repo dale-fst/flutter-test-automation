@@ -1,4 +1,4 @@
-name: CI
+name: Flutter test automation
 on:
   pull_request:
     branches:
