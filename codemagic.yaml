@@ -6,8 +6,6 @@ workflows:
     environment:
       groups:
         - firebase_credentials
-      vars:
-        FIREBASE_PROJECT: "fst-dale-training"
       flutter: stable
       xcode: latest
       cocoapods: default
