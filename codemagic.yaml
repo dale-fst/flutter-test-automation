@@ -11,10 +11,9 @@ workflows:
       cocoapods: default
     triggering:
       events:
-        - push
         - pull_request
       branch_patterns:
-        - pattern: '*'
+        - pattern: '{bug,feature}/*'
           include: true
           source: true
     scripts:
